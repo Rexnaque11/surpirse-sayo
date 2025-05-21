@@ -2,19 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Surprise for You 💖</title>
+  <title>For You 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Hey Love 💕</h1>
-  <button onclick="showSurprise()">Click me!</button>
+  <audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 
-  <div class="surprise" id="surpriseBox">
-    <h2>You are the cutest! 🥰</h2>
-    <p>Here's you and your adorable cat! 🐱💖</p>
-    <img src="afe0bdf0-02d0-49dc-9ceb-c058c2134e36.jpg" alt="Your Cute Pic">
-    <img src="c3c32ba8-5829-4077-b285-c1285865d4c1.jpg" alt="Cute TeddyBear">
+  <div class="container">
+    <h1 class="fade-in">Hi Love! 😘</h1>
+    <p class="fade-in">I made something special just for you 💕</p>
+    
+    <div class="images">
+      <img src="gf.jpg" alt="Your Cute Picture">
+      <img src="cat.jpg" alt="Your Cute Cat">
+    </div>
+
+    <button onclick="showMessage()">Click me! 💌</button>
   </div>
 
   <script src="script.js"></script>
